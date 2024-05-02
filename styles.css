@@ -1,2 +1,24 @@
+h2{
+	text-align:center;
+}
+form{
+	width:100vw;
+	flex-wrap:wrap;
+}
+.nip{
+	margin:1px;
+}
+.nip:nth-of-type(1),.nip:nth-of-type(2),.nip:nth-of-type(3){
+	width:30%;
+}
+.nip:nth-of-type(4){
+	width:48%;
+}
+.nip:nth-of-type(5),.nip:nth-of-type(6){
+	width:24%;
+}
+input{
+	width:100%;
+}
 
-/* Your CSS Code here. */
+
