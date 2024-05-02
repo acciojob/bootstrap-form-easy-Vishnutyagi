@@ -11,37 +11,44 @@
     <h2>Internship Form</h2>
     <form class="d-flex justify-content-around">
         <div class="nip">
-            <label for="first-name-input">First Name</label><br>
+            <label class="form-label" for="first-name-input">First Name</label><br>
             <input id="first-name-input" type="text" required>
+			<div class="invalid-feedback">Please enter your first name.</div>
         </div>
         <div class="nip">
-            <label for="last-name-input">Last Name</label><br>
-            <input id="last-name-input" type="text" required>
+            <label class="form-label" for="last-name-input">Last Name</label><br>
+            <input id="last-name-input" class="form-control" type="text" required>
+			<div class="invalid-feedback">Please enter your last name.</div>
         </div>
         <div class="nip">
-            <label for="email-input">Email Address</label><br>
+            <label class="form-label" for="email-input">Email Address</label><br>
             <input id="email-input" type="email" required>
+			<div class="invalid-feedback">Email required</div>
         </div>
         <div class="nip">
-            <label for="college-input">College</label><br>
+            <label  class="form-label" for="college-input">College</label><br>
             <input id="college-input" type="text" required>
+			<div class="invalid-feedback">Please enter your college name.</div>
         </div>
         <div class="nip">
-            <label for="grad-year-select">Graduation Year</label><br>
+            <label  class="form-label" for="grad-year-select">Graduation Year</label><br>
             <select id="grad-year-select" required>
                 <option>2020</option>
                 <option>2021</option>
                 <option>2022</option>
                 <option>2023</option>
             </select>
+			<div class="invalid-feedback">Please enter your year.</div>
         </div>
         <div class="nip">
-            <label for="roll-no-input">Roll No.</label><br>
+            <label class="form-label" for="roll-no-input">Roll No.</label><br>
             <input id="roll-no-input" type="text" required>
+			<div class="invalid-feedback">Please enter your rol no.</div>
         </div>
         <div class="suv">
-            <input id="conditions-checkbox" type="checkbox" required>
-            <label for="conditions-checkbox">Agree to terms and conditions</label>
+            <input  id="conditions-checkbox" type="checkbox" required>
+            <label class="form-label" for="conditions-checkbox">Agree to terms and conditions</label>
+			<div class="invalid-feedback">Please click it</div>
             <button class="btn btn-primary">Submit</button>
         </div>
     </form>
