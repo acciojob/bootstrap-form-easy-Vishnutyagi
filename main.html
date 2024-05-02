@@ -11,38 +11,38 @@
 	<h2>Internship Form</h2>
 	<form class="d-flex justify-content-around">
 		<div class="nip">
-			<label for="fname" >First Name</label><br>
-			<input id="fname" type="text" required>
+			<label for="first-name-input" >First Name</label><br>
+			<input id="first-name-input" type="text" required>
 		</div>
 		<div class="nip">
-			<label for="fname" >Last Name</label><br>
-			<input id="lname" type="text" required>
+			<label for="last-name-input" >Last Name</label><br>
+			<input id="last-name-input" type="text" required>
 		</div>
 		<div class="nip">
-			<label for="email" >Email Address</label><br>
-			<input id="email" type="email" required>
+			<label for="email-input" >Email Address</label><br>
+			<input id="email-input" type="email" required>
 		</div>
 		<div class="nip">
-			<label for="college" >College</label><br>
-			<input id="college" type="text" required>
+			<label for="college-input" >College</label><br>
+			<input id="college-input" type="text" required>
 		</div>
 		<div class="nip">
 			<label for="year" >Graduation Year</label><br>
-			<input id="year" type="number" placeholder="Choose..." required min="2020" max="2023">
-			<!-- <select id>
+			<!-- <input id="year" type="number" placeholder="Choose..." required min="2020" max="2023"> -->
+			<select id="year" type="number" placeholder="Choose..." required>
 			<option>2020</option>
 			<option>2021</option>
 			<option>2022</option>
 			<option>2023</option>
-			</select> -->
+			</select>
 		</div>
 		<div class="nip">
-			<label for="rn" >Roll Number</label><br>
-			<input id="rn" type="number" required>
+			<label for="roll-no-input" >Roll Number</label><br>
+			<input id="roll-no-input" type="number" required>
 		</div>
 		<div class="suv">
-			<input id="ch" type="checkbox" required>
-			<label for="ch">Agree to terms and conditions</label>
+			<input id="conditions-checkbox" type="checkbox" required>
+			<label for="conditions-checkbox">Agree to terms and conditions</label>
 			<button class="btn btn-primary"> Submit</button>
 		</div>
 	</form>
